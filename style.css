@@ -3,26 +3,11 @@
 
 /* Utilities */
 
-@font-face {
-    font-family: cool;
-    src: url("/fonts/sailor-tattoo-hand-font/SailorTattooHand-axPBo.ttf");
-}
-
-@font-face {
-    font-family: neon;
-    src: url(/fonts/neon-font/Neon-gR3p.ttf);
-}
-
-@font-face {
-    font-family: neon2;
-    src: url("/fonts/neon-glow-font/NeonGlowBold-YxJv.ttf");
-}
-
-@font-face {
-    font-family: con;
-    src: url("/fonts/ConformityPersonalUseRegular-1GMDg.ttf");
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&family=Sedgwick+Ave+Display&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
 @media (min-width: 930px) {
     * {
         margin: 0%;
@@ -36,16 +21,13 @@
     .logo {
         left: 1em;
         float: left;
-        font-family: neon2;
+        font-family: 'Inspiration', cursive;
         position: relative;
         font-size: 5em;
         color: orangered;
-        text-shadow: 1px 3px 1px 10px orangered;
-        animation-name: animation;
-        animation-duration: .5s;
-        animation-iteration-count: infinite;
         text-decoration: none;
-        transition: .2s;
+        text-shadow: 2px 1px rgba(255, 255, 255, .080);
+        font-weight: 300;
     }
     header.sticky {
         padding-bottom: .5rem;
@@ -72,7 +54,7 @@
         padding-right: 1em;
         color: white;
         float: right;
-        font-family: cool;
+        font-family: 'Rubik Distressed', cursive;
         display: block;
         font-size: 3em;
         text-decoration: none;
@@ -90,7 +72,6 @@
         display: block;
     }
     #myLinks li a {
-        font-family: cool;
         font-size: 1em;
         color: white;
         text-shadow: 1px 3px 10px 20px orangered;
@@ -119,7 +100,7 @@
         z-index: 1;
     }
     .home_bg p {
-        font-family: con;
+        font-family: 'Sedgwick Ave Display', cursive;
         padding: 1rem;
         font-size: 2em;
     }
@@ -143,8 +124,8 @@
         padding: .8em;
         border-radius: 4px;
         border: 2px solid rgba(255, 68, 0, 0.233);
-        font-size: 3em;
-        font-family: con;
+        font-size: 2em;
+        font-family: 'Rubik Distressed', cursive;
         right: 3em;
         text-shadow: 3px 1px 5px rgb(121, 88, 28);
         box-shadow: 2px 2px 8px 3px rgb(255, 60, 0);
@@ -159,7 +140,7 @@
         height: 70%;
         width: 50%;
         top: 17%;
-        background-image: url("/template/tattoo-4394609_1920.jpg");
+        background-image: url("tattoo-4394609_1920.jpg");
     }
     .about_bg h1 {
         top: 2em;
