@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Historic Tattoos</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logo">Historic</a>
+        <div class="nav-links">
+            <div class="navbar">
+                <div id="myLinks" class="myLinks">
+
+                    <li><a href="#merch">merch</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#about">about</a></li>
+                </div>
+                <li><a href="javascript:void(0);" class="hamburger" id="ham" onclick="myFunction()">&#9776;</a></li>
+
+            </div>
+        </div>
+
+    </header>
+    <div class="home_bg">
+        <div class="action-call">
+            <p>The phenomenon of tattooing was once widespread. In 'The Descent of Man' Charles Darwin wrote that there was no country in the world that did not practice tattooing or some other form of permanent body decoration</p>
+
+        </div>
+        <a href="#contact">
+            <button type="button">Book Tattoo</button>
+        </a>
+    </div>
+
+
+    <div class="about_bg" id="about">
+        <div class="about">
+            <div class="about_image"></div>
+            <h1>Tattoos</h1>
+            <p>The oldest known tattooed human skin to date is found on the body of Ötzi the Iceman, who was estimated between '337' and 3100 BC. His body was found in the Alps and had 61 tattoos of simple dots and lines using carbon ink.</p>
+        </div>
+    </div>
+    <div class="gallery_bg" id="gallery">
+        <h1>Gallery</h1>
+        <img src="/template/girl-4123270_1920.jpg" class="gallery_pic1">
+        <img src="/template/people-2576110_1920.jpg" class="gallery_pic2">
+        <img src="/template/woman-1867485_1920.jpg" class="gallery_pic3">
+        <img src="/template/tat.jpg" class="gallery_pic4">
+
+
+    </div>
+    <div class="contact_bg" id="contact">
+        <h1 class="contact">Contact Us</h1>
+        <div class="form_holder">
+            <form action="action_page.php">
+                <label class="name" for="name">Name</label>
+                <input type="text" name="name" id="name" class="name"><br>
+
+                <label for="email" class="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email"><br><br>
+
+                <label for="comments" id="comments" class="comments">Comments</label>
+                <textarea name="comments" cols="30" rows="10" class="comments_text">Write something here...</textarea>
+
+                <input type="submit" value="Submit" class="submit">
+            </form>
+        </div>
+    </div>
+
+
+    <div class="merch_bg">
+        <h1 class="merch" id="merch">Merch</h1>
+
+        <div class="columns">
+            <ul class="tshirt" id="shirt">
+                <li class="header">T-Shirts</li>
+                <li class="price">$23.38/each</li>
+                <li class="image1"> </li>
+                <li class="button1"><a href="#merch">buy</a></li>
+            </ul>
+        </div>
+
+
+        <div class="columns">
+            <ul class="tshirt">
+                <li class="header">T-Shirts</li>
+                <li class="price">$23.38/each</li>
+                <li class="image2"> </li>
+                <li class="button2"><a href="#merch">buy</a></li>
+            </ul>
+        </div>
+
+
+        <div class="columns">
+            <ul class="tshirt">
+                <li class="header">T-Shirts</li>
+                <li class="price">$23.38/each</li>
+                <li class="image3"> </li>
+                <li class="button3"><a href="#merch">buy</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</body>
+
+</html>
