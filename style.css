@@ -134,16 +134,11 @@
         z-index: 1;
     }
     .about_bg {
-        position: relative;
+        background-image: url("tattoo-4394609_1920.jpg");
+        position: absolute;
+        top: 100%;
         height: 100vh;
         width: 100vw;
-    }
-    .about_image {
-        height: 100;
-        width: 100%;
-        top: 100%;
-        background-image: url("tattoo-4394609_1920.jpg");
-        background-position-x: 70%;
     }
     .about_bg h1 {
         top: 2em;
@@ -158,22 +153,23 @@
         animation-iteration-count: infinite;
         z-index: 2;
     }
-    .about p {
+    .about_bg p {
         padding-top: 18%;
         line-height: 2em;
-        height: 50em;
+        height: 100rem;
         width: 60rem;
         top: 1%;
         left: 20rem;
         font-size: 2em;
-        font-family: con;
-        position: absolute;
+        font-family: 'Sedgwick Ave Display', cursive;
+        position: relative;
         color: white;
         z-index: 2;
         text-align: left;
     }
     .gallery_bg {
         position: relative;
+        top: 200%;
         height: 100vh;
         width: 100%;
         border: 3px solid orangered;
